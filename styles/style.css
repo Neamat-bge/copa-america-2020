@@ -1,0 +1,16 @@
+
+
+/* common style and utility */
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.tournament-poster{
+    display: flex;
+    justify-content: center;
+}
+.tournament-logo{
+    width: 556px;
+    height: 438;
+}
