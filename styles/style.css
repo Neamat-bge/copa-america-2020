@@ -37,15 +37,14 @@ h1{
 }
 .live-button {
         text-decoration: none;
-        padding: 10px 24PX;
-        border-radius: 20px;
+        text-align: center;
+        padding: 10px 24px;
         background-image: linear-gradient(orange, tomato);
         color: wheat;
-        font-weight: 700;
         width: 168px;
         height: 44px;
-        margin-bottom: 50px;
         margin-left: 50px;
+        display: inline;
     }
  
 
