@@ -36,19 +36,18 @@ h1{
     height: 438;
 }
 .live-button {
-    text-decoration: none;
-    /* width: 168px;
-    height: 44px;
-    color: white;
-    background-color: #E02C6D;
-    padding: 10px, 24px, 10px, 24px; */
-    text-align: top;
-    background-color: orangered;
-    padding: 10px, 24px;
-    margin-top: 20px;
-    width: 168px;
-    height: 44px;
-}
+        text-decoration: none;
+        padding: 10px 24PX;
+        border-radius: 20px;
+        background-image: linear-gradient(orange, tomato);
+        color: wheat;
+        font-weight: 700;
+        width: 168px;
+        height: 44px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+ 
 
 /* Player details */
 
@@ -155,6 +154,3 @@ footer style
     .players, .videos{
         grid-template-columns: repeat(1, 1fr);
     }
-    /* .player, .videos, .footer{
-        flex-direction: column;
-    } */
