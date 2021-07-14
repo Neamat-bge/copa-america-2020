@@ -154,3 +154,8 @@ footer style
     .players, .videos{
         grid-template-columns: repeat(1, 1fr);
     }
+    .player, .videos{
+        flex-direction: column;
+    }
+}
+    
