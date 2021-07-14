@@ -2,13 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* common style and utility */
-.body{
+/* .body{
     font-family: 'Poppins', sans-serif;
     background-color: black;
-}
+} */
 .container-one{
+    margin: 1px solid #2D25A0 ;
+    padding-top: 120px;
     background-color: #2D25A0;
     margin-bottom: 70px;
+}
+.banner-image:hover .banner{
+    transform: rotate(10deg);
+    transform-origin: top right;
+    transition: transform 1s ease-out .15s;
+
 }
 .tournament-name{
     margin-left: 156px;
@@ -27,13 +35,19 @@ h1{
     width: 556px;
     height: 438;
 }
-a {
+.live-button {
     text-decoration: none;
-    width: 168px;
+    /* width: 168px;
     height: 44px;
     color: white;
     background-color: #E02C6D;
-    padding: 10px, 24px, 10px, 24px;
+    padding: 10px, 24px, 10px, 24px; */
+    text-align: center;
+    background-color: orangered;
+    padding: 10px, 24px;
+    margin-top: 20px;
+    width: 168px;
+    height: 44px;
 }
 
 /* Player details */
@@ -73,12 +87,13 @@ a {
 }
 h2{
     background-color: darkgray;
+    text-align: center;
 }
 .videos{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 15px;
-    padding-bottom: 20px;
+   
 }
 
 
