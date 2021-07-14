@@ -4,6 +4,19 @@
 .body{
     font-family: 'Poppins', sans-serif;
 }
+.container-one{
+    background-color: #2D25A0;
+    margin-bottom: 70px;
+}
+.tournament-name{
+    margin-left: 156px;
+    margin-right: 102px;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: bold;
+}
 .tournament-poster{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -12,7 +25,8 @@
     width: 556px;
     height: 438;
 }
-.live-link{
+a {
+    text-decoration: none;
     width: 168px;
     height: 44px;
     color: white;
