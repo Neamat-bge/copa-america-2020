@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* common style and utility */
-/* .body{
+.body{
     font-family: 'Poppins', sans-serif;
     background-color: black;
-} */
+}
 .container-one{
     margin: 1px solid #2D25A0 ;
     padding-top: 120px;
